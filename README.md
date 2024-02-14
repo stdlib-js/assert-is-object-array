@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-object-array/tags). For example,
+
+```javascript
 import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@v0.2.0-esm/index.mjs';
 ```
 
@@ -89,7 +94,7 @@ bool = isObjectArray( [ null, {} ] );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@v0.2.0-esm/index.mjs';
+import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@esm/index.mjs';
 
 var bool = isObjectArray( [ { 'beep': 'boop' }, {}, {} ] );
 // returns true
