@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@esm/index.mjs';
+import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@v0.2.0-esm/index.mjs';
 ```
 
 #### isObjectArray( value )
@@ -89,7 +89,7 @@ bool = isObjectArray( [ null, {} ] );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@esm/index.mjs';
+import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@v0.2.0-esm/index.mjs';
 
 var bool = isObjectArray( [ { 'beep': 'boop' }, {}, {} ] );
 // returns true
