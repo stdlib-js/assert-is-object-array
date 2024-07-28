@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@deno/mod.js';
+import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@v0.2.2-deno/mod.js';
 ```
 
 #### isObjectArray( value )
@@ -84,7 +84,7 @@ bool = isObjectArray( [ null, {} ] );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@deno/mod.js';
+import isObjectArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-object-array@v0.2.2-deno/mod.js';
 
 var bool = isObjectArray( [ { 'beep': 'boop' }, {}, {} ] );
 // returns true
